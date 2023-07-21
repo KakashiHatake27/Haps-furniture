@@ -180,7 +180,7 @@ width: 100%;
   position: absolute;
   top: 0%;
   right:20%;
-  width: 450px;
+  /* width: 450px; */
   height: 450px;
 }
 
@@ -645,10 +645,10 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 50%;
+    height: 55%;
+    top: 30%;
+    right: -4%;
   }
   .footer-banner-container{
     height: 560px;
@@ -656,7 +656,7 @@ margin-top: 160px;
   }
   .footer-banner-image{
     width: 77%;
-    left: 30%;
+    left: 58%;
     top: 6%;
     height: 56%
   }
@@ -784,3 +784,19 @@ margin-top: 160px;
   margin: auto;
 }
 }
+
+
+@media screen and (max-width:1500px) {
+.textFurn{
+  translate: 0px -10px;
+}
+
+
+}
+@media screen and (max-width:1250px) {
+  .textFurn{
+    translate: 0px -5px;
+  }
+  
+  
+  }
