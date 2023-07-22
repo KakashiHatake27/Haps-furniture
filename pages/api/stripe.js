@@ -14,9 +14,8 @@ const params = {
     payment_method_types: ['card'],
     billing_address_collection: 'auto',
     shipping_options: [
-        {shipping_rate: 'shr_1NVQ5dBzH5UP2thlJwd5CAbi'},
-        {shipping_rate: 'shr_1NVQ6oBzH5UP2thleANPbu7K'},
-
+        {shipping_rate: 'shr_1NWYQIBzH5UP2thlMp1xtUE8'},
+        // {shipping_rate: 'shr_1NVQ6oBzH5UP2thleANPbu7K'},
     ],
     line_items: req.body.map((item) => {
         const img = item.image[0].asset._ref;
